@@ -1,0 +1,54 @@
+/* Set the font family to sans serif */
+body {
+	font-family: Verdana, Arial, Helvetica, sans serif;
+}
+
+/* Make header fonts larger */
+h2 {
+	font-size: 125%;
+}
+
+header h1 {
+	font-size:250%;"
+}
+
+section h1 {
+	font-size:140%;
+}
+
+/* Make footer fonts smaller */
+footer p {
+	font-size: 90%;
+}
+
+/* Indent header text*/
+hgroup {
+	text-indent: 25px;
+}
+
+/* Center footer text */
+footer p {
+	text-align: center;
+}
+
+/* Add text shadow to header */
+#top {
+	text-shadow:
+	3px 3px 0px red,
+	6px 6px 0px orange,
+	9px 9px 0px yellow,
+	12px 12px 0px green,
+	15px 15px 0px indigo,
+	21px 21px 0px violet;
+}
+
+/* Make First letter of header larger */
+section h1::first-letter {
+	font-size: 250%;
+}
+
+/* Make strong text orange and blink */
+strong {
+		color: orange;
+		text-decoration: blink;
+}
