@@ -22,7 +22,7 @@
 	// Calculate and print the number of minutes per week in the Bilky Way, where there are 26 hours per day
 
 	// Change the number of hours per day to 26 and re-calculate the number of minutes per week
-	$HoursPerDay=24;
+	$HoursPerDay=26;
 	$MinutesPerWeek=$DaysPerWeek*$HoursPerDay*$MinutesPerHour;
 
 	// print the number of minutes in a week in the Bilky Way
